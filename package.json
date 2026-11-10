@@ -1,0 +1,12 @@
+{
+  "name": "morpheus-receptionist",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI phone receptionist for Morpheus Precision Health",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "availability": "node bin/availability.js",
+    "test": "node --test"
+  }
+}
